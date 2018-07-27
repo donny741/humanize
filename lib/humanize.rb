@@ -9,7 +9,7 @@ module Humanize
   # Big numbers are big: http://wiki.answers.com/Q/What_number_is_after_vigintillion&src=ansTT
 
 
-  def humanize(locale: Humanize.config.default_locale,
+  def humanize(locale: :lt,
                decimals_as: Humanize.config.decimals_as)
 
     if self.class == Float

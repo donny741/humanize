@@ -11,6 +11,16 @@ module Humanize
       :and => 'und',
       :comma => ''
     },
+    :lt => {
+      :group_by => 1_000,
+      :infinity => 'begalybė',
+      :undefined => 'nenustatyta',
+      :negative => 'neigiamas',
+      :zero => 'nulis',
+      :point => 'kablelis',
+      :and => 'ir',
+      :comma => ','
+    },
     :en => {
       :group_by => 1_000,
       :infinity => 'infinity',
